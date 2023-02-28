@@ -4,7 +4,7 @@ from docx.shared import Cm
 document = Document()
 
 # profile picture
-document.add_picture('me.png', width = Cm(10))
+document.add_picture('me.jpg', width = Cm(10))
 
 # name, phone number and email
 name = input('What is your name? ')
